@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-13T15:46:52.671378+00:00",
+  "sha256": "be8ff345664ae762428b4f1f80542bb2ee0ffb1c9f1598235ba35437d494c135",
+  "method_development": "TAT-QA TRAIN and handmade cases only. Interrupted implementation reviewed and frozen before any DEV score. Thresholds were hand-specified, no optimized training.",
+  "annotation": "two AI blind readings, same underlying model, no independent human annotation."
+}

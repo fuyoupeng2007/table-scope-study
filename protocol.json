@@ -1,0 +1,18 @@
+{
+  "frozen_at_utc": "2026-11-13T15:41:19.230103+00:00",
+  "primary": "all 57 official req_comparison=true, answer_from=table, answer_type=span and singleton answer, out of TAT-QA DEV",
+  "control": "all 114 other table-source singleton span questions in DEV. Do not supply req_comparison or membership to either policy. Report per subset and all.",
+  "inputs": "Question, rows incl headers and same model answer if fallback. No gold, mappings, reference type or subset identity at method inference.",
+  "policies": [
+    "TAPEX alone",
+    "prior direct source lookup then TAPEX",
+    "first four-digit year in first table scan for questions requesting a year as sanity",
+    "flat range executor (if exposed), else keep prior direct answer + TAPEX",
+    "strong direct hierarchical executor, else prior direct + TAPEX",
+    "same candidates, discriminator; else prior direct + TAPEX"
+  ],
+  "primary_metric": "Value exact normalized as previously. Paired rescue, harm, output coverage, cluster bootstrap over table_uid for differences. Returning an answer matches prior comparator even if spelling-only case variation.",
+  "blinded_annotation": "30 hash-selected per predetermined prefix; two same-system model readings of raw grid without gold or model predictions; no independent humans. Coordinates zero-based. Keep conditional and ambiguous cases.",
+  "stress": "Before seeing scores use same 30 for masked manual challenge design. Header-swap paired check: for unambiguous, simple numeric years across 2 or 3 distinct columns, exchange winning year label with one competitor label (date strings travel with label); positive target changes, full column exchange as invariant; new predictions without gold or membership. Additional eight matched questions on differing financial range/attribute. All artificial edits exploratory; never part of natural overall score.",
+  "decision": "if added scope challenge does not independently beat strong direct evaluator, do not credit improvement to challenger. No testing-set adaptation. No SOTA or all financial statements claim."
+}

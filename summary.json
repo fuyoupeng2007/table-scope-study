@@ -1,0 +1,140 @@
+{
+ "all": {
+  "n": 171,
+  "tables": 120,
+  "hits": {
+   "initial": 64,
+   "fallback": 101,
+   "first_year": 114,
+   "flat": 128,
+   "base": 131,
+   "contrast": 131
+  },
+  "comparisons": {
+   "base_vs_fallback": {
+    "gain": 31,
+    "harm": 1,
+    "ci95_pp": [
+     11.54,
+     24.22
+    ]
+   },
+   "base_vs_flat": {
+    "gain": 3,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     3.95
+    ]
+   },
+   "contrast_vs_base": {
+    "gain": 0,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "contrast_vs_fallback": {
+    "gain": 31,
+    "harm": 1,
+    "ci95_pp": [
+     11.54,
+     24.22
+    ]
+   }
+  }
+ },
+ "comparison": {
+  "n": 57,
+  "tables": 54,
+  "hits": {
+   "initial": 15,
+   "fallback": 15,
+   "first_year": 28,
+   "flat": 42,
+   "base": 45,
+   "contrast": 45
+  },
+  "comparisons": {
+   "base_vs_fallback": {
+    "gain": 31,
+    "harm": 1,
+    "ci95_pp": [
+     37.93,
+     67.21
+    ]
+   },
+   "base_vs_flat": {
+    "gain": 3,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     12.07
+    ]
+   },
+   "contrast_vs_base": {
+    "gain": 0,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "contrast_vs_fallback": {
+    "gain": 31,
+    "harm": 1,
+    "ci95_pp": [
+     37.93,
+     67.21
+    ]
+   }
+  }
+ },
+ "other": {
+  "n": 114,
+  "tables": 78,
+  "hits": {
+   "initial": 49,
+   "fallback": 86,
+   "first_year": 86,
+   "flat": 86,
+   "base": 86,
+   "contrast": 86
+  },
+  "comparisons": {
+   "base_vs_fallback": {
+    "gain": 0,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "base_vs_flat": {
+    "gain": 0,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "contrast_vs_base": {
+    "gain": 0,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "contrast_vs_fallback": {
+    "gain": 0,
+    "harm": 0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ }
+}
